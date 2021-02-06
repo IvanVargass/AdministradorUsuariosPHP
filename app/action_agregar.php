@@ -13,7 +13,7 @@ $cliente = new Clientes($nombre, $apellidos, $dni, $correo, $distrito_id);
 $resultado = $cliente->Registrar();
 
 if($resultado){
-    header("location:../listado.php");
+    header("location:../index.php");
 } else {
     exit(json_decode(array('estado'=>false, 'mensaje' => 'Error al registrar')));
 }

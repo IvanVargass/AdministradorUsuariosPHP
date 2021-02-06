@@ -20,7 +20,7 @@ class Clientes {
         $this->correo = $correo;
         $this->distrito_id = $distrito_id;
         $this->datos = array();
-        $this->cn = new mysqli('localhost', 'root', '', 'ventas');
+        $this->cn = new mysqli('localhost', 'id16094980_root', '%M\StB((WK_$8$}v', 'id16094980_ventas');
     }
 
     public function getNombre(){

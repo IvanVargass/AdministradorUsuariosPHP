@@ -55,15 +55,15 @@
                     ?>
                         <tr>
 
-                            <td> <?=$value?->cliente_id?> </td> 
-                            <td> <?=$value?->nombre?> </td>
-                            <td> <?=$value?->apellidos?> </td>
-                            <td> <?=$value?->dni?> </td>
-                            <td> <?=$value?->correo?> </td>
+                            <td> <?=$value->cliente_id?> </td> 
+                            <td> <?=$value->nombre?> </td>
+                            <td> <?=$value->apellidos?> </td>
+                            <td> <?=$value->dni?> </td>
+                            <td> <?=$value->correo?> </td>
 
-                            <td><a href="app/action_eliminar.php?cliente_id=<?=$value?->cliente_id?>" class="btn btn-danger btn-sm"><span
+                            <td><a href="app/action_eliminar.php?cliente_id=<?=$value->cliente_id?>" class="btn btn-danger btn-sm"><span
                                         class="fa fa-trash-alt fa-lg"></span></a>
-                                <a href="actualizar.php?cliente_id=<?=$value?->cliente_id?>" class="btn btn-primary btn-sm"><span
+                                <a href="actualizar.php?cliente_id=<?=$value->cliente_id?>" class="btn btn-primary btn-sm"><span
                                         class="fa fa-edit fa-lg"></span></a>
                             </td>
                         </tr>

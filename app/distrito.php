@@ -7,7 +7,7 @@ class Distrito {
      
     function __construct(){
         $this->datos = array();
-        $this->cn = new mysqli('localhost', 'root', '', 'ventas');
+        $this->cn = new mysqli('localhost', 'id16094980_root', '%M\StB((WK_$8$}v', 'id16094980_ventas');
     }
 
 
